@@ -2,16 +2,16 @@
 {
     public static double Avg(int[] tab)
     {
-        double res = 0;
+        double result = 0;
         int counter = 0;
         foreach (int a in tab)
         {
             counter++;
-            res += a;
+            result += a;
         }
 
-        res = res / counter;
-        return res;
+        result = result / counter;
+        return result;
     }
 
     public static int Max(int[] tab)
