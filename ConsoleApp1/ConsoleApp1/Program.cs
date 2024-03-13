@@ -4,10 +4,10 @@
     {
         double res = 0;
         int counter = 0;
-        foreach (int a in tab)
+        foreach (int feature_new in tab)
         {
             counter++;
-            res += a;
+            res += feature_new;
         }
 
         res = res / counter;
